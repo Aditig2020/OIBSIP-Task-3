@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="cel.css">
+</head>
+<body >
+
+  <div  id="border">
+    <!-- <form onsubmit="event.preventDefault()"> -->
+    	<div class="head">
+    		<h2><em>Temperature Converter</em></h2>
+    	</div>
+    	<div id="val" display="flex">
+    		<input id="box" placeholder ="Enter a number" onclick="txt1()">
+			<select id="input" >
+    			 
+				<option value="Celcius" >In Celcius</option>
+				<option value="Fahrenheit" >In Fahrenheit</option>
+				<option value="Kelvin">In Kelvin</option>
+				
+		   </select>
+
+        </div>
+    	<div class="drop">
+    		<select id="cars" >
+    			 
+                 <option value="Celcius" >To Celcius</option>
+                 <option value="Fahrenheit" >To Fahrenheit</option>
+				 <option value="Kelvin">To Kelvin</option>
+                 
+            </select>
+    	</div>
+
+    	<div id="but">
+        <button class="button1" onclick="con()">Convert</button>
+        </div>
+
+    	<div id="res">
+    		<input    id="result" placeholder ="Result" readonly>
+
+        </div>
+        
+        <div class="head">
+			<br>
+			<p>© 2023 <a href="index.html">Priyanshika Sharma</a>|All rights reserved.</p>
+    	</div>
+    	
+    	
+    <!-- </form> -->
+  </div>
+  
+<script src="cel.js"></script>
+
+
+
+</body>
+</html>
